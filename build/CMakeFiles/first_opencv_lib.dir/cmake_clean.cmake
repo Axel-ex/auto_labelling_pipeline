@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/first_opencv_lib.dir/sources/main.cpp.o"
-  "CMakeFiles/first_opencv_lib.dir/sources/main.cpp.o.d"
-  "CMakeFiles/first_opencv_lib.dir/sources/pipeline.cpp.o"
-  "CMakeFiles/first_opencv_lib.dir/sources/pipeline.cpp.o.d"
+  "CMakeFiles/first_opencv_lib.dir/src/main.cpp.o"
+  "CMakeFiles/first_opencv_lib.dir/src/main.cpp.o.d"
+  "CMakeFiles/first_opencv_lib.dir/src/pipeline.cpp.o"
+  "CMakeFiles/first_opencv_lib.dir/src/pipeline.cpp.o.d"
   "libfirst_opencv_lib.a"
   "libfirst_opencv_lib.pdb"
 )

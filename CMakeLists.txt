@@ -9,7 +9,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -Wall -Wextra -Werror")
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Paths for source and headers
-set(src_dir sources/)
+set(src_dir src/)
 set(inc_dir includes/)
 set(srcs ${src_dir}main.cpp ${src_dir}pipeline.cpp)
 

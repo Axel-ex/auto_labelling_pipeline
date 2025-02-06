@@ -1,27 +1,27 @@
 [
 {
   "directory": "/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/opt/homebrew/Cellar/opencv/4.11.0/include/opencv4 -I/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/includes  -g -Wall -Wextra -Werror -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/first_opencv_lib.dir/sources/main.cpp.o -c /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/sources/main.cpp",
-  "file": "/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/sources/main.cpp",
-  "output": "CMakeFiles/first_opencv_lib.dir/sources/main.cpp.o"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/opt/homebrew/Cellar/opencv/4.11.0/include/opencv4 -I/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/includes  -g -Wall -Wextra -Werror -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/first_opencv_lib.dir/src/main.cpp.o -c /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/src/main.cpp",
+  "file": "/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/src/main.cpp",
+  "output": "CMakeFiles/first_opencv_lib.dir/src/main.cpp.o"
 },
 {
   "directory": "/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/opt/homebrew/Cellar/opencv/4.11.0/include/opencv4 -I/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/includes  -g -Wall -Wextra -Werror -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/first_opencv_lib.dir/sources/pipeline.cpp.o -c /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/sources/pipeline.cpp",
-  "file": "/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/sources/pipeline.cpp",
-  "output": "CMakeFiles/first_opencv_lib.dir/sources/pipeline.cpp.o"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/opt/homebrew/Cellar/opencv/4.11.0/include/opencv4 -I/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/includes  -g -Wall -Wextra -Werror -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/first_opencv_lib.dir/src/pipeline.cpp.o -c /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/src/pipeline.cpp",
+  "file": "/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/src/pipeline.cpp",
+  "output": "CMakeFiles/first_opencv_lib.dir/src/pipeline.cpp.o"
 },
 {
   "directory": "/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/includes -isystem /opt/homebrew/Cellar/opencv/4.11.0/include/opencv4  -g -Wall -Wextra -Werror -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/labelling_pipeline.dir/sources/main.cpp.o -c /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/sources/main.cpp",
-  "file": "/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/sources/main.cpp",
-  "output": "CMakeFiles/labelling_pipeline.dir/sources/main.cpp.o"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/includes -isystem /opt/homebrew/Cellar/opencv/4.11.0/include/opencv4  -g -Wall -Wextra -Werror -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/labelling_pipeline.dir/src/main.cpp.o -c /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/src/main.cpp",
+  "file": "/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/src/main.cpp",
+  "output": "CMakeFiles/labelling_pipeline.dir/src/main.cpp.o"
 },
 {
   "directory": "/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/includes -isystem /opt/homebrew/Cellar/opencv/4.11.0/include/opencv4  -g -Wall -Wextra -Werror -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.o -c /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/sources/pipeline.cpp",
-  "file": "/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/sources/pipeline.cpp",
-  "output": "CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.o"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/includes -isystem /opt/homebrew/Cellar/opencv/4.11.0/include/opencv4  -g -Wall -Wextra -Werror -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.o -c /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/src/pipeline.cpp",
+  "file": "/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/src/pipeline.cpp",
+  "output": "CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.o"
 },
 {
   "directory": "/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-build/googlemock",

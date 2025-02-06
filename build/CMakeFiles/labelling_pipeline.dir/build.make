@@ -72,44 +72,44 @@ include CMakeFiles/labelling_pipeline.dir/flags.make
 CMakeFiles/labelling_pipeline.dir/codegen:
 .PHONY : CMakeFiles/labelling_pipeline.dir/codegen
 
-CMakeFiles/labelling_pipeline.dir/sources/main.cpp.o: CMakeFiles/labelling_pipeline.dir/flags.make
-CMakeFiles/labelling_pipeline.dir/sources/main.cpp.o: /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/sources/main.cpp
-CMakeFiles/labelling_pipeline.dir/sources/main.cpp.o: CMakeFiles/labelling_pipeline.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/labelling_pipeline.dir/sources/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labelling_pipeline.dir/sources/main.cpp.o -MF CMakeFiles/labelling_pipeline.dir/sources/main.cpp.o.d -o CMakeFiles/labelling_pipeline.dir/sources/main.cpp.o -c /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/sources/main.cpp
+CMakeFiles/labelling_pipeline.dir/src/main.cpp.o: CMakeFiles/labelling_pipeline.dir/flags.make
+CMakeFiles/labelling_pipeline.dir/src/main.cpp.o: /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/src/main.cpp
+CMakeFiles/labelling_pipeline.dir/src/main.cpp.o: CMakeFiles/labelling_pipeline.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/labelling_pipeline.dir/src/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labelling_pipeline.dir/src/main.cpp.o -MF CMakeFiles/labelling_pipeline.dir/src/main.cpp.o.d -o CMakeFiles/labelling_pipeline.dir/src/main.cpp.o -c /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/src/main.cpp
 
-CMakeFiles/labelling_pipeline.dir/sources/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/labelling_pipeline.dir/sources/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/sources/main.cpp > CMakeFiles/labelling_pipeline.dir/sources/main.cpp.i
+CMakeFiles/labelling_pipeline.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/labelling_pipeline.dir/src/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/src/main.cpp > CMakeFiles/labelling_pipeline.dir/src/main.cpp.i
 
-CMakeFiles/labelling_pipeline.dir/sources/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/labelling_pipeline.dir/sources/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/sources/main.cpp -o CMakeFiles/labelling_pipeline.dir/sources/main.cpp.s
+CMakeFiles/labelling_pipeline.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/labelling_pipeline.dir/src/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/src/main.cpp -o CMakeFiles/labelling_pipeline.dir/src/main.cpp.s
 
-CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.o: CMakeFiles/labelling_pipeline.dir/flags.make
-CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.o: /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/sources/pipeline.cpp
-CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.o: CMakeFiles/labelling_pipeline.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.o -MF CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.o.d -o CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.o -c /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/sources/pipeline.cpp
+CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.o: CMakeFiles/labelling_pipeline.dir/flags.make
+CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.o: /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/src/pipeline.cpp
+CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.o: CMakeFiles/labelling_pipeline.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.o -MF CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.o.d -o CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.o -c /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/src/pipeline.cpp
 
-CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/sources/pipeline.cpp > CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.i
+CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/src/pipeline.cpp > CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.i
 
-CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/sources/pipeline.cpp -o CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.s
+CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/src/pipeline.cpp -o CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.s
 
 # Object files for target labelling_pipeline
 labelling_pipeline_OBJECTS = \
-"CMakeFiles/labelling_pipeline.dir/sources/main.cpp.o" \
-"CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.o"
+"CMakeFiles/labelling_pipeline.dir/src/main.cpp.o" \
+"CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.o"
 
 # External object files for target labelling_pipeline
 labelling_pipeline_EXTERNAL_OBJECTS =
 
-labelling_pipeline: CMakeFiles/labelling_pipeline.dir/sources/main.cpp.o
-labelling_pipeline: CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.o
+labelling_pipeline: CMakeFiles/labelling_pipeline.dir/src/main.cpp.o
+labelling_pipeline: CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.o
 labelling_pipeline: CMakeFiles/labelling_pipeline.dir/build.make
 labelling_pipeline: /opt/homebrew/lib/libopencv_gapi.4.11.0.dylib
 labelling_pipeline: /opt/homebrew/lib/libopencv_stitching.4.11.0.dylib

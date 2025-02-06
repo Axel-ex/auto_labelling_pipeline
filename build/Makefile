@@ -262,59 +262,59 @@ first_opencv_test/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/first_opencv_test.dir/build.make test/CMakeFiles/first_opencv_test.dir/build
 .PHONY : first_opencv_test/fast
 
-sources/main.o: sources/main.cpp.o
-.PHONY : sources/main.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-sources/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_opencv_lib.dir/build.make CMakeFiles/first_opencv_lib.dir/sources/main.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labelling_pipeline.dir/build.make CMakeFiles/labelling_pipeline.dir/sources/main.cpp.o
-.PHONY : sources/main.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_opencv_lib.dir/build.make CMakeFiles/first_opencv_lib.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labelling_pipeline.dir/build.make CMakeFiles/labelling_pipeline.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-sources/main.i: sources/main.cpp.i
-.PHONY : sources/main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-sources/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_opencv_lib.dir/build.make CMakeFiles/first_opencv_lib.dir/sources/main.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labelling_pipeline.dir/build.make CMakeFiles/labelling_pipeline.dir/sources/main.cpp.i
-.PHONY : sources/main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_opencv_lib.dir/build.make CMakeFiles/first_opencv_lib.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labelling_pipeline.dir/build.make CMakeFiles/labelling_pipeline.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-sources/main.s: sources/main.cpp.s
-.PHONY : sources/main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-sources/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_opencv_lib.dir/build.make CMakeFiles/first_opencv_lib.dir/sources/main.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labelling_pipeline.dir/build.make CMakeFiles/labelling_pipeline.dir/sources/main.cpp.s
-.PHONY : sources/main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_opencv_lib.dir/build.make CMakeFiles/first_opencv_lib.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labelling_pipeline.dir/build.make CMakeFiles/labelling_pipeline.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
-sources/pipeline.o: sources/pipeline.cpp.o
-.PHONY : sources/pipeline.o
+src/pipeline.o: src/pipeline.cpp.o
+.PHONY : src/pipeline.o
 
 # target to build an object file
-sources/pipeline.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_opencv_lib.dir/build.make CMakeFiles/first_opencv_lib.dir/sources/pipeline.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labelling_pipeline.dir/build.make CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.o
-.PHONY : sources/pipeline.cpp.o
+src/pipeline.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_opencv_lib.dir/build.make CMakeFiles/first_opencv_lib.dir/src/pipeline.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labelling_pipeline.dir/build.make CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.o
+.PHONY : src/pipeline.cpp.o
 
-sources/pipeline.i: sources/pipeline.cpp.i
-.PHONY : sources/pipeline.i
+src/pipeline.i: src/pipeline.cpp.i
+.PHONY : src/pipeline.i
 
 # target to preprocess a source file
-sources/pipeline.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_opencv_lib.dir/build.make CMakeFiles/first_opencv_lib.dir/sources/pipeline.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labelling_pipeline.dir/build.make CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.i
-.PHONY : sources/pipeline.cpp.i
+src/pipeline.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_opencv_lib.dir/build.make CMakeFiles/first_opencv_lib.dir/src/pipeline.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labelling_pipeline.dir/build.make CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.i
+.PHONY : src/pipeline.cpp.i
 
-sources/pipeline.s: sources/pipeline.cpp.s
-.PHONY : sources/pipeline.s
+src/pipeline.s: src/pipeline.cpp.s
+.PHONY : src/pipeline.s
 
 # target to generate assembly for a file
-sources/pipeline.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_opencv_lib.dir/build.make CMakeFiles/first_opencv_lib.dir/sources/pipeline.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labelling_pipeline.dir/build.make CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.s
-.PHONY : sources/pipeline.cpp.s
+src/pipeline.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_opencv_lib.dir/build.make CMakeFiles/first_opencv_lib.dir/src/pipeline.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labelling_pipeline.dir/build.make CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.s
+.PHONY : src/pipeline.cpp.s
 
 # Help Target
 help:
@@ -336,12 +336,12 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... labelling_pipeline"
-	@echo "... sources/main.o"
-	@echo "... sources/main.i"
-	@echo "... sources/main.s"
-	@echo "... sources/pipeline.o"
-	@echo "... sources/pipeline.i"
-	@echo "... sources/pipeline.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/pipeline.o"
+	@echo "... src/pipeline.i"
+	@echo "... src/pipeline.s"
 .PHONY : help
 
 

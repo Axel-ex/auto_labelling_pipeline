@@ -1,2 +1,2 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libfirst_opencv_lib.a CMakeFiles/first_opencv_lib.dir/sources/main.cpp.o CMakeFiles/first_opencv_lib.dir/sources/pipeline.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ar qc libfirst_opencv_lib.a CMakeFiles/first_opencv_lib.dir/src/main.cpp.o CMakeFiles/first_opencv_lib.dir/src/pipeline.cpp.o
 /Library/Developer/CommandLineTools/usr/bin/ranlib libfirst_opencv_lib.a

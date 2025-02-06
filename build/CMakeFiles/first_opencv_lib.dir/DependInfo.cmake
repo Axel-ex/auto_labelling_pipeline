@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/sources/main.cpp" "CMakeFiles/first_opencv_lib.dir/sources/main.cpp.o" "gcc" "CMakeFiles/first_opencv_lib.dir/sources/main.cpp.o.d"
-  "/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/sources/pipeline.cpp" "CMakeFiles/first_opencv_lib.dir/sources/pipeline.cpp.o" "gcc" "CMakeFiles/first_opencv_lib.dir/sources/pipeline.cpp.o.d"
+  "/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/src/main.cpp" "CMakeFiles/first_opencv_lib.dir/src/main.cpp.o" "gcc" "CMakeFiles/first_opencv_lib.dir/src/main.cpp.o.d"
+  "/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/src/pipeline.cpp" "CMakeFiles/first_opencv_lib.dir/src/pipeline.cpp.o" "gcc" "CMakeFiles/first_opencv_lib.dir/src/pipeline.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

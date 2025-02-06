@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/labelling_pipeline.dir/sources/main.cpp.o"
-  "CMakeFiles/labelling_pipeline.dir/sources/main.cpp.o.d"
-  "CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.o"
-  "CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.o.d"
+  "CMakeFiles/labelling_pipeline.dir/src/main.cpp.o"
+  "CMakeFiles/labelling_pipeline.dir/src/main.cpp.o.d"
+  "CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.o"
+  "CMakeFiles/labelling_pipeline.dir/src/pipeline.cpp.o.d"
   "labelling_pipeline"
   "labelling_pipeline.pdb"
 )
