@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/test
+# Install script for directory: /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/test/install_local_manifest.txt"
+  file(WRITE "/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/test/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

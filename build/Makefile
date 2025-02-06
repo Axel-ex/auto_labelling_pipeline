@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline
+CMAKE_SOURCE_DIR = /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build
+CMAKE_BINARY_DIR = /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/CMakeFiles /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/CMakeFiles /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -185,17 +185,17 @@ first_opencv_lib/fast:
 .PHONY : first_opencv_lib/fast
 
 #=============================================================================
-# Target rules for targets named image_pipeline
+# Target rules for targets named labelling_pipeline
 
 # Build rule for target.
-image_pipeline: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 image_pipeline
-.PHONY : image_pipeline
+labelling_pipeline: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 labelling_pipeline
+.PHONY : labelling_pipeline
 
 # fast build rule for target.
-image_pipeline/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_pipeline.dir/build.make CMakeFiles/image_pipeline.dir/build
-.PHONY : image_pipeline/fast
+labelling_pipeline/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labelling_pipeline.dir/build.make CMakeFiles/labelling_pipeline.dir/build
+.PHONY : labelling_pipeline/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -268,7 +268,7 @@ sources/main.o: sources/main.cpp.o
 # target to build an object file
 sources/main.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_opencv_lib.dir/build.make CMakeFiles/first_opencv_lib.dir/sources/main.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_pipeline.dir/build.make CMakeFiles/image_pipeline.dir/sources/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labelling_pipeline.dir/build.make CMakeFiles/labelling_pipeline.dir/sources/main.cpp.o
 .PHONY : sources/main.cpp.o
 
 sources/main.i: sources/main.cpp.i
@@ -277,7 +277,7 @@ sources/main.i: sources/main.cpp.i
 # target to preprocess a source file
 sources/main.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_opencv_lib.dir/build.make CMakeFiles/first_opencv_lib.dir/sources/main.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_pipeline.dir/build.make CMakeFiles/image_pipeline.dir/sources/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labelling_pipeline.dir/build.make CMakeFiles/labelling_pipeline.dir/sources/main.cpp.i
 .PHONY : sources/main.cpp.i
 
 sources/main.s: sources/main.cpp.s
@@ -286,7 +286,7 @@ sources/main.s: sources/main.cpp.s
 # target to generate assembly for a file
 sources/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_opencv_lib.dir/build.make CMakeFiles/first_opencv_lib.dir/sources/main.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_pipeline.dir/build.make CMakeFiles/image_pipeline.dir/sources/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labelling_pipeline.dir/build.make CMakeFiles/labelling_pipeline.dir/sources/main.cpp.s
 .PHONY : sources/main.cpp.s
 
 sources/pipeline.o: sources/pipeline.cpp.o
@@ -295,7 +295,7 @@ sources/pipeline.o: sources/pipeline.cpp.o
 # target to build an object file
 sources/pipeline.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_opencv_lib.dir/build.make CMakeFiles/first_opencv_lib.dir/sources/pipeline.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_pipeline.dir/build.make CMakeFiles/image_pipeline.dir/sources/pipeline.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labelling_pipeline.dir/build.make CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.o
 .PHONY : sources/pipeline.cpp.o
 
 sources/pipeline.i: sources/pipeline.cpp.i
@@ -304,7 +304,7 @@ sources/pipeline.i: sources/pipeline.cpp.i
 # target to preprocess a source file
 sources/pipeline.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_opencv_lib.dir/build.make CMakeFiles/first_opencv_lib.dir/sources/pipeline.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_pipeline.dir/build.make CMakeFiles/image_pipeline.dir/sources/pipeline.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labelling_pipeline.dir/build.make CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.i
 .PHONY : sources/pipeline.cpp.i
 
 sources/pipeline.s: sources/pipeline.cpp.s
@@ -313,7 +313,7 @@ sources/pipeline.s: sources/pipeline.cpp.s
 # target to generate assembly for a file
 sources/pipeline.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_opencv_lib.dir/build.make CMakeFiles/first_opencv_lib.dir/sources/pipeline.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_pipeline.dir/build.make CMakeFiles/image_pipeline.dir/sources/pipeline.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labelling_pipeline.dir/build.make CMakeFiles/labelling_pipeline.dir/sources/pipeline.cpp.s
 .PHONY : sources/pipeline.cpp.s
 
 # Help Target
@@ -335,7 +335,7 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... image_pipeline"
+	@echo "... labelling_pipeline"
 	@echo "... sources/main.o"
 	@echo "... sources/main.i"
 	@echo "... sources/main.s"

@@ -1,7 +1,7 @@
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/src/gmock-all.cc \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/include/gmock/gmock.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/include/gmock/gmock-actions.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/src/gmock-all.cc \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/include/gmock/gmock.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/include/gmock/gmock-actions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__config_site \
@@ -890,7 +890,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__utility/forward_like.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__utility/rel_ops.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__utility/to_underlying.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/ostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__exception/operations.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/bitset \
@@ -919,21 +919,21 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/unistd.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-port.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-port.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_static_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/istream \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-port.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-port.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/stat.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_s_ifmt.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_filesec_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/AvailabilityMacros.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/TargetConditionals.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_posix_vdisable.h \
@@ -967,15 +967,15 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/any \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/variant \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest-message.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest-message.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/sstream \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/float.h \
@@ -983,13 +983,13 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/set \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cxxabi.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__cxxabi_config.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iterator \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/common_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/counted_iterator.h \
@@ -999,24 +999,24 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/istream_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/concepts \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cassert \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-pp.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/include/gmock/gmock-cardinalities.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/include/gmock/gmock-function-mocker.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/include/gmock/gmock-spec-builders.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/include/gmock/gmock-matchers.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-matchers.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/include/gmock/gmock-more-actions.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/include/gmock/gmock-nice-strict.h \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/src/gmock-cardinalities.cc \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/src/gmock-internal-utils.cc \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/src/gmock-matchers.cc \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/src/gmock-spec-builders.cc \
-  /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/_deps/googletest-src/googlemock/src/gmock.cc
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-pp.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/include/gmock/gmock-cardinalities.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/include/gmock/gmock-function-mocker.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/include/gmock/gmock-spec-builders.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/include/gmock/gmock-matchers.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-matchers.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/include/gmock/gmock-more-actions.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/include/gmock/gmock-nice-strict.h \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/src/gmock-cardinalities.cc \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/src/gmock-internal-utils.cc \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/src/gmock-matchers.cc \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/src/gmock-spec-builders.cc \
+  /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/_deps/googletest-src/googlemock/src/gmock.cc

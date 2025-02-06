@@ -25,38 +25,41 @@ bool validateArgs(int argc, char** argv)
 
 int main(int argc, char** argv)
 {
-    Pipeline process_pipe;
 
     if (!validateArgs(argc, argv))
         return EXIT_FAILURE;
 
     std::string path = argv[1];
     int v_treshold = std::atoi(argv[2]);
-    std::string image_path = samples::findFile(path, false);
-    if (image_path.empty())
-    {
-        std::println(std::cerr, "ERROR: reading image: {} not found",
-                     image_path);
-        return EXIT_FAILURE;
-    }
 
-    auto processed = process_pipe.process(image_path, v_treshold);
-    if (processed.has_value())
-    {
-        imshow("processed image", processed.value());
-        waitKey();
+    Pipeline process_pipe(path, v_treshold);
+    process_pipe.process();
 
-        std::filesystem::path file_path(image_path);
-        auto file_name = file_path.stem().string();
-
-        file_name = std::format("./processed/{}.jpg", file_name);
-        imwrite(file_name, processed.value());
-    }
-    else
-    {
-        std::println(std::cerr, "ERROR: processing image");
-        return EXIT_FAILURE;
-    }
+    // std::string image_path = samples::findFile(path, false);
+    // if (image_path.empty())
+    // {
+    //     std::println(std::cerr, "ERROR: reading image: {} not found",
+    //                  image_path);
+    //     return EXIT_FAILURE;
+    // }
+    //
+    // auto processed = process_pipe.process(image_path, v_treshold);
+    // if (processed.has_value())
+    // {
+    //     imshow("processed image", processed.value());
+    //     waitKey();
+    //
+    //     std::filesystem::path file_path(image_path);
+    //     auto file_name = file_path.stem().string();
+    //
+    //     file_name = std::format("./processed/{}.jpg", file_name);
+    //     imwrite(file_name, processed.value());
+    // }
+    // else
+    // {
+    //     std::println(std::cerr, "ERROR: processing image");
+    //     return EXIT_FAILURE;
+    // }
 
     return EXIT_SUCCESS;
 }

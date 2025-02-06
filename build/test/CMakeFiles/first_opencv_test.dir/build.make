@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline
+CMAKE_SOURCE_DIR = /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build
+CMAKE_BINARY_DIR = /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/first_opencv_test.dir/depend.make
@@ -73,18 +73,18 @@ test/CMakeFiles/first_opencv_test.dir/codegen:
 .PHONY : test/CMakeFiles/first_opencv_test.dir/codegen
 
 test/CMakeFiles/first_opencv_test.dir/test.cpp.o: test/CMakeFiles/first_opencv_test.dir/flags.make
-test/CMakeFiles/first_opencv_test.dir/test.cpp.o: /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/test/test.cpp
+test/CMakeFiles/first_opencv_test.dir/test.cpp.o: /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/test/test.cpp
 test/CMakeFiles/first_opencv_test.dir/test.cpp.o: test/CMakeFiles/first_opencv_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/first_opencv_test.dir/test.cpp.o"
-	cd /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/test && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/first_opencv_test.dir/test.cpp.o -MF CMakeFiles/first_opencv_test.dir/test.cpp.o.d -o CMakeFiles/first_opencv_test.dir/test.cpp.o -c /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/test/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/first_opencv_test.dir/test.cpp.o"
+	cd /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/test && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/first_opencv_test.dir/test.cpp.o -MF CMakeFiles/first_opencv_test.dir/test.cpp.o.d -o CMakeFiles/first_opencv_test.dir/test.cpp.o -c /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/test/test.cpp
 
 test/CMakeFiles/first_opencv_test.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/first_opencv_test.dir/test.cpp.i"
-	cd /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/test && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/test/test.cpp > CMakeFiles/first_opencv_test.dir/test.cpp.i
+	cd /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/test && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/test/test.cpp > CMakeFiles/first_opencv_test.dir/test.cpp.i
 
 test/CMakeFiles/first_opencv_test.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/first_opencv_test.dir/test.cpp.s"
-	cd /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/test && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/test/test.cpp -o CMakeFiles/first_opencv_test.dir/test.cpp.s
+	cd /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/test && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/test/test.cpp -o CMakeFiles/first_opencv_test.dir/test.cpp.s
 
 # Object files for target first_opencv_test
 first_opencv_test_OBJECTS = \
@@ -99,18 +99,18 @@ test/first_opencv_test: libfirst_opencv_lib.a
 test/first_opencv_test: lib/libgtest_main.a
 test/first_opencv_test: lib/libgtest.a
 test/first_opencv_test: test/CMakeFiles/first_opencv_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable first_opencv_test"
-	cd /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/first_opencv_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable first_opencv_test"
+	cd /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/first_opencv_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/first_opencv_test.dir/build: test/first_opencv_test
 .PHONY : test/CMakeFiles/first_opencv_test.dir/build
 
 test/CMakeFiles/first_opencv_test.dir/clean:
-	cd /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/test && $(CMAKE_COMMAND) -P CMakeFiles/first_opencv_test.dir/cmake_clean.cmake
+	cd /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/test && $(CMAKE_COMMAND) -P CMakeFiles/first_opencv_test.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/first_opencv_test.dir/clean
 
 test/CMakeFiles/first_opencv_test.dir/depend:
-	cd /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/test /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/test /Users/Axel/Desktop/SEA_ME/test/OPENCV/image_pipeline/build/test/CMakeFiles/first_opencv_test.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/test /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/test /Users/Axel/Desktop/SEA_ME/test/OPENCV/auto_labelling_pipeline/build/test/CMakeFiles/first_opencv_test.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test/CMakeFiles/first_opencv_test.dir/depend
 
