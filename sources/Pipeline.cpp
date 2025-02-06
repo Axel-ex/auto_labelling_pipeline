@@ -3,6 +3,7 @@
 #include <print>
 
 using namespace cv;
+using namespace std::chrono;
 
 Pipeline::Pipeline(const std::string& path, uint8_t treshold)
     : asset_path_(path), v_treshold_(treshold)
@@ -11,31 +12,26 @@ Pipeline::Pipeline(const std::string& path, uint8_t treshold)
 
 void Pipeline::process()
 {
+    auto begin = steady_clock::now();
+
     for (const auto& dir_entry :
          std::filesystem::directory_iterator(asset_path_))
     {
         if (std::filesystem::is_directory(dir_entry))
             continue;
-        Mat img = imread(dir_entry.path(), false);
-        if (img.empty())
-        {
-            std::println(std::cerr, "An error occured reading the img");
-            continue;
-        }
-        imshow(dir_entry.path(), img);
-        waitKey();
-    }
 
-    // Mat img = imread(path, IMREAD_COLOR_BGR);
-    //
-    // if (img.empty())
-    //     return std::nullopt;
-    //
-    // convertToHSL(img);
-    // applyThreshold(img, v_treshold);
-    // applyROI(img);
-    // // applyPerspectiveTransform(img);
-    // return std::make_optional<Mat>(img);
+        Mat img = imread(dir_entry.path(), IMREAD_COLOR_BGR);
+        convertToHSL(img);
+        applyThreshold(img);
+        applyROI(img);
+        writeResult(dir_entry.path().stem().string(), img);
+
+        processed++;
+    }
+    auto elapsed =
+        duration_cast<milliseconds>(steady_clock::now() - begin).count();
+    std::println(std::cout, "Processed {} pictures in {}ms", processed,
+                 elapsed);
 }
 
 void Pipeline::applyPerspectiveTransform(Mat& img)
@@ -90,4 +86,9 @@ void Pipeline::applyROI(Mat& img)
 
     auto roi = Rect(0, y / 2, x, y / 2);
     img = img(roi);
+}
+
+void Pipeline::writeResult(const std::string& filename, Mat& img)
+{
+    imwrite(std::format("processed/{}_processed.jpg", filename), img);
 }
