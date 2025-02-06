@@ -17,13 +17,7 @@ set(headers ${inc_dir}pipeline.hpp)
 
 # OpenCV
 find_package(OpenCV REQUIRED)
-if(OpenCV_FOUND)
-  message(STATUS "OpenCV found: ${OpenCV_VERSION}")
-  message(STATUS "Include dirs: ${OpenCV_INCLUDE_DIRS}")
-  message(STATUS "Libraries: ${OpenCV_LIBS}")
-else()
-  message(FATAL_ERROR "OpenCV not found. Make sure it's installed.")
-endif()
+find_package(fmt REQUIRED)
 
 # Include OpenCV headers
 include_directories(${OpenCV_INCLUDE_DIRS} includes)
@@ -45,4 +39,4 @@ add_subdirectory(test)
 add_executable(${exec_name} ${srcs})
 
 # Link libraries
-target_link_libraries(${exec_name} PRIVATE ${OpenCV_LIBS})
+target_link_libraries(${exec_name} PRIVATE ${OpenCV_LIBS} fmt::fmt)
